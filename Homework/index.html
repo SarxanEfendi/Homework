@@ -9,6 +9,7 @@
 <body>
     <h1>Application form</h1>
     <form action="/test" method="GET">
+        <div>
         <label>Name:</label>
         <br>
         <input type="text" name="name">
@@ -20,13 +21,16 @@
         <label>Password:</label>
         <br>
         <input type="password" name="password">
+        </div>
         <br>
+        <div>
         <label>Gender:</label>
         <br>
         <input type="radio" name="gender" value="Male">Male
         <input type="radio" name="gender" value="Female">Female
+        </div>
         <br>
-        <br>
+        <div>
         <label > Your academic degre: </label>
         <br>
         <input type="checkbox" name="degre" value="associate"> Associate
@@ -36,8 +40,9 @@
         <input type="checkbox" name="degre" value="master"> Master
         <br>    
         <input type="checkbox" name="degre" value="doctoral"> Doctoral
+        </div>
         <br>
-        <br>
+        <div>
         <label>Age:</label>
         <br>
         <input type="number" name="age">
@@ -49,8 +54,9 @@
         <label>Weight:</label>
         <br>
         <input type="number" name="weight">
+        </div>
+        <br>
         <div>
-            <br>
             <button style="background-color: green;" type="submit" >Submit</button>
         </div>
     </form>
