@@ -7,23 +7,52 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Think That Make Me Sneeze:</h1>
-    <p>I wanted to put together a quick list of stuff that makes me sneeze.</p>
-    <p>It's because i keep forgetting to avoid this stuff, and maybe if i write it down then I'll remember it. Prticular the one about the sawdust</p>
-    <li>Dust</li>
-    <li>Ground black paper</li>
-    <li>Doing the following:</li>
-    <ol type="1" start="1">
-        <li>Cutting some wood using a saw</li>
-        <li>Forgetting to clean the dust off</li>
-        <li>Looking at the cut real close in order to make sure that it's right</li>
-        <li>Breathing in:</li>
-        <ul style="list-style-type:square">
-            <li>It's worse when I breathe in slowly and get a real lung-full of fresh sawdust</li>
-            <li>The sawdust does smell nice, though</li>
-        </ul>
-    </ol>   
-    <li>The Next Funny Item</li>
-    <li>The Final, Deeply Insightful Item</li>
+    <h1>Application form</h1>
+    <form action="/test" method="GET">
+        <label>Name:</label>
+        <br>
+        <input type="text" name="name">
+        <br>
+        <label>Surname:</label>
+        <br>
+        <input type="text" name="surname">
+        <br>
+        <label>Password:</label>
+        <br>
+        <input type="password" name="password">
+        <br>
+        <label>Gender:</label>
+        <br>
+        <input type="radio" name="gender" value="Male">Male
+        <input type="radio" name="gender" value="Female">Female
+        <br>
+        <br>
+        <label > Your academic degre: </label>
+        <br>
+        <input type="checkbox" name="degre" value="associate"> Associate
+        <br>
+        <input type="checkbox" name="degre" value="bachelor"> Bachelor
+        <br>    
+        <input type="checkbox" name="degre" value="master"> Master
+        <br>    
+        <input type="checkbox" name="degre" value="doctoral"> Doctoral
+        <br>
+        <label>Age</label>
+        <br>
+        <br>
+        <input type="number" name="age">
+        <br>
+        <label>Height</label>
+        <br>
+        <input type="text">
+        <br>
+        <label>Weight</label>
+        <br>
+        <input type="text">
+        <div>
+            <br>
+            <button style="background-color: green;" type="submit" >Submit</button>
+        </div>
+    </form>
 </body>
 </html>
