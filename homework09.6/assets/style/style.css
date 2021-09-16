@@ -1,0 +1,33 @@
+img{
+    width: 200px;
+    height: 200px;
+}
+div.my-prop{
+    position: relative;
+    margin-bottom: 10px;
+    
+}
+.my-prop h3{
+    position: absolute;
+    left: 210px;
+    top: 30px;
+}
+.my-prop p{
+    position: absolute;
+    bottom: 0px;
+    left: 210px;
+    width: 300px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#content{
+    display: grid;
+    grid-template-columns: auto auto ;
+}
+.about-us{
+    width: 500px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#main h3{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
