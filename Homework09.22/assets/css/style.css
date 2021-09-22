@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.star-rating{
+    color: yellow;
+}
+.my-card{
+    position: relative;
+    padding: 0 0 20px;
+    height: 350px;
+    width: 100%;
+    
+}
+.my-card div{
+    margin-bottom: 8px;
+}
+.my-card-button{
+    position: relative;
+    display: block;
+    height: 30px;
+}
+.my-button{
+    position: absolute;
+    margin: 0 auto;
+    left: 90px;
+    bottom: 0px;
+}
