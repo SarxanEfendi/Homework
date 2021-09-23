@@ -1,0 +1,125 @@
+#intro-section{
+    background-image: url(/assets/img/header-bg.jpg);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#intro-section .wrapper{
+    height: 100vh;
+}
+#intro-section .wrapper .view h2, h4{
+    color: white;
+}
+#intro-section .wrapper .view div{
+    text-align: center;
+}
+#intro-section .wrapper .view h4{
+    font-size: 30px;
+    font-weight: bold;
+}
+#intro-section .wrapper .view h2{
+    font-size: 70px;
+    font-weight: bold;
+}
+.mycolor{
+    transition: all .7s;
+}
+.mycolor:hover{
+   color: yellow !important;
+}
+.ourservices{
+    text-align: center;
+}
+.myrow .mycol{
+    margin-bottom: 30px;
+}
+
+.myrow .mycol .myservices .myicon{
+    font-size: 70px;
+    color: white;
+    background: #ffc800;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+    padding: 30px;
+}
+.myrow .mycol .myservices h2,p{
+    margin-bottom: 18px;
+    margin-top: 18px;
+}
+/* #services-section{
+    background-color: #fff;
+} */
+.myeffect:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.portfolio-section{
+    background-color: rgba(219, 219, 219, 0.2);
+}
+.teamimg{
+    width: 230px;
+    height: 230px;
+
+    
+}
+.team-social{
+    margin-left: 10px;
+}
+.team-social i{
+    font-size: 30px;
+    color: white;
+    background: #000000;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    vertical-align: middle;
+    padding: 10px;
+    margin-right: 15px;
+}
+.companyimg{
+    width: 250px;
+    height: 80px;
+}
+.input-text input{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+}
+.input-msg textarea{
+    width: 100% !important;
+    height: 190px !important;
+}
+#services-section{
+    background-color: rgba(0, 0, 0, 0.8);
+    background-image: url(/assets/img/map-image.png);
+}
+#services-section .ourservices p{
+    color: ghostwhite;
+}
+#services-section .ourservices h2{
+    font-size: 30px;
+    color: ghostwhite;
+}
+.social-media i{
+    font-size: 30px;
+    color: white;
+    background: #000000;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    vertical-align: middle;
+    padding: 10px;
+    margin-right: 15px;
+}
+#myfooter{
+    display: flex;
+    justify-content: center;
+}
