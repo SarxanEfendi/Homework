@@ -95,14 +95,14 @@
     width: 100% !important;
     height: 190px !important;
 }
-#services-section{
+#contact-section{
     background-color: rgba(0, 0, 0, 0.8);
     background-image: url(/assets/img/map-image.png);
 }
-#services-section .ourservices p{
+#contact-section .ourservices p{
     color: ghostwhite;
 }
-#services-section .ourservices h2{
+#contact-section .ourservices h2{
     font-size: 30px;
     color: ghostwhite;
 }
