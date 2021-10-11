@@ -1,0 +1,5 @@
+@mixin bg($my-bg: #fff) {
+    background: $my-bg;
+    text-align: center;
+    padding: 5%;
+  }

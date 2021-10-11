@@ -1,0 +1,124 @@
+@import "./assets/partialcss/something";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header-bg{
+    background-color: #fff;
+}
+.my-nav{
+    margin: 1em 4em;
+}
+.nav-list{
+    list-style: none;
+    .nav-list-element{
+        margin-left: 40px;
+    }
+    .nav-list-icon{
+        display: none;
+    }
+}
+#intro{
+    margin-top: 25vh;
+}
+.intro-text{
+    margin-left: 5.5vw;
+    .about-us{
+        max-width: 25em;
+        font-size: 35px;
+        line-height: 50px;
+        letter-spacing: -0.5px;
+        span{
+            color: #1BA9E3;
+        }
+    }
+    .our-slogan{
+        font-size: 35px;
+        line-height: 50px;
+        letter-spacing: -0.5px;
+    }
+    .from-date{
+        margin-top: 16px;
+        background-color: #1BA9E3;
+        padding: 3px 20px;
+        font-size: 30px;
+        color: #fff;
+        letter-spacing: -1px;
+    }
+}
+
+#our-works{
+    .my-container{
+        padding: 0 6vw;
+    }
+
+    .my-body{
+        padding: 1rem 0rem;
+    }
+
+    margin-top: 20vh;
+    .card{
+        border: none;
+    }
+    .card-img-box{
+        img{
+            width: 95%;
+        }
+    }
+    .my-card-text{
+        font-size: 14px;
+        color: #52555E;
+        line-height: 20px;
+    }
+    .my-card-hover{
+        &:hover{
+            cursor: pointer;
+            img{
+                transform: scale(1.1);
+                transition: all 0.7s;
+            }
+        }
+    }
+    .card-body-item{
+        background-color: #F4F4F4;
+        padding: 4px 10px;
+        font-size: 12px;
+        color: #242730;
+    }
+    .bg-1{
+        @include bg($my-bg:#555934)
+    }
+    .bg-2{
+        @include bg($my-bg:#255394)
+    }
+    .bg-3{
+        @include bg($my-bg:#c72e36)
+    }
+    .bg-4{
+        @include bg($my-bg:#e6000f)
+    }
+    .bg-5{
+        @include bg($my-bg:#064478)
+    }
+    .bg-6{
+        @include bg($my-bg:#064478)
+    }
+    .bg-7{
+        @include bg($my-bg:#5688fc)
+    }
+    .bg-8{
+        @include bg($my-bg:#5688fc)
+    }
+}
+
+@media screen and (max-width: 992px){
+    .my-nav{
+        .nav-list-element{
+            display: none;
+        }
+        .nav-list-icon{
+            display: list-item;
+        }
+    }
+}

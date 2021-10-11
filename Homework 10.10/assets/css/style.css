@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header-bg {
+  background-color: #fff;
+}
+
+.my-nav {
+  margin: 1em 4em;
+}
+
+.nav-list {
+  list-style: none;
+}
+
+.nav-list .nav-list-element {
+  margin-left: 40px;
+}
+
+.nav-list .nav-list-icon {
+  display: none;
+}
+
+#intro {
+  margin-top: 25vh;
+}
+
+.intro-text {
+  margin-left: 5.5vw;
+}
+
+.intro-text .about-us {
+  max-width: 25em;
+  font-size: 35px;
+  line-height: 50px;
+  letter-spacing: -0.5px;
+}
+
+.intro-text .about-us span {
+  color: #1BA9E3;
+}
+
+.intro-text .our-slogan {
+  font-size: 35px;
+  line-height: 50px;
+  letter-spacing: -0.5px;
+}
+
+.intro-text .from-date {
+  margin-top: 16px;
+  background-color: #1BA9E3;
+  padding: 3px 20px;
+  font-size: 30px;
+  color: #fff;
+  letter-spacing: -1px;
+}
+
+#our-works {
+  margin-top: 20vh;
+}
+
+#our-works .my-container {
+  padding: 0 6vw;
+}
+
+#our-works .my-body {
+  padding: 1rem 0rem;
+}
+
+#our-works .card {
+  border: none;
+}
+
+#our-works .card-img-box img {
+  width: 95%;
+}
+
+#our-works .my-card-text {
+  font-size: 14px;
+  color: #52555E;
+  line-height: 20px;
+}
+
+#our-works .my-card-hover:hover {
+  cursor: pointer;
+}
+
+#our-works .my-card-hover:hover img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
+}
+
+#our-works .card-body-item {
+  background-color: #F4F4F4;
+  padding: 4px 10px;
+  font-size: 12px;
+  color: #242730;
+}
+
+#our-works .bg-1 {
+  background: #555934;
+  text-align: center;
+  padding: 5%;
+}
+
+#our-works .bg-2 {
+  background: #255394;
+  text-align: center;
+  padding: 5%;
+}
+
+#our-works .bg-3 {
+  background: #c72e36;
+  text-align: center;
+  padding: 5%;
+}
+
+#our-works .bg-4 {
+  background: #e6000f;
+  text-align: center;
+  padding: 5%;
+}
+
+#our-works .bg-5 {
+  background: #064478;
+  text-align: center;
+  padding: 5%;
+}
+
+#our-works .bg-6 {
+  background: #064478;
+  text-align: center;
+  padding: 5%;
+}
+
+#our-works .bg-7 {
+  background: #5688fc;
+  text-align: center;
+  padding: 5%;
+}
+
+#our-works .bg-8 {
+  background: #5688fc;
+  text-align: center;
+  padding: 5%;
+}
+
+@media screen and (max-width: 992px) {
+  .my-nav .nav-list-element {
+    display: none;
+  }
+  .my-nav .nav-list-icon {
+    display: list-item;
+  }
+}
