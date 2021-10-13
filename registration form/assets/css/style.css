@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#form-body{
+    background-image: url(/assets/image/image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    width: 40vw;
+    margin: 7em auto 0;
+    padding: 5em;
+}
+
+#name,#surname,#email,#your-password{
+    width: 100%;
+    margin-bottom: 1em ;
+}
+
+.my-button{
+    width: 100%;
+}
+
+.color{
+    color: rgb(255, 255, 255);
+}
+
+p{
+    color:#fff;
+}
